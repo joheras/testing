@@ -1,0 +1,16 @@
+homepage:
+    path:     /
+    defaults: { _controller: TestBundle:Default:index }
+    
+posts:
+    path:     /posts
+    defaults: { _controller: TestBundle:Default:posts }
+
+post:
+    path:     /post/{slug}
+    defaults: { _controller: TestBundle:Default:post }
+    
+archive:
+    path:     /archives
+    defaults: { _controller: TestBundle:Default:archives }
+    
